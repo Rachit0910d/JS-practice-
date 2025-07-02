@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <p>
+        Rock Paper Scissors
+    </p>
+
+    <button onclick="
+    const randomNo1 = Math.random();
+
+    if(randomNo1 >= 0 && randomNo1 < 1/3){
+        console.log(alert('You picked rock. Computer picked rock. Tie.'));
+    }
+    else if(randomNo1 >= 1/3 && randomNo1 < 2/3){
+        console.log(alert('You picked rock. Computer picked paper. You lose.'));
+    }
+    else{
+        console.log(alert('You picked rock. Computer picked scissors. you Win.'));
+    }
+    ">Rock</button>
+
+    <button onclick="
+    const randomNo2 = Math.random();
+    if(randomNo2 >= 0 && randomNo2 < 1/3){
+        console.log(alert('You picked paper. Computer picked rock. You Win.'));
+    }
+    else if(randomNo2 >= 1/3 && randomNo2 < 2/3){
+        console.log(alert('You picked Paper. Computer picked paper. Tie.'));
+    }
+    else{
+        console.log(alert('You picked paper. Computer picked scissors. you lose.'));
+    }
+    
+    "
+    >Paper</button>
+
+    <button onclick="
+    const randomNo3 = Math.random();
+    if(randomNo3 >= 0 && randomNo3 < 1/3){
+        console.log(alert('You picked scissors. Computer picked rock. You lose.'));
+    }
+    else if(randomNo3 >= 1/3 && randomNo3 < 2/3){
+        console.log(alert('You picked scissors. Computer picked paper. You Win.'));
+    }
+    else{
+        console.log(alert('You picked scissors. Computer picked scissors. Tie.'));
+    }
+    "
+    >Scissors</button>
+
+    <br><br><br>
+    <p> <a href="#" target="blank">Click here</a> to see the final version of the project.</p>
+    <script>
+
+    </script>
+    
+</body>
+</html>
